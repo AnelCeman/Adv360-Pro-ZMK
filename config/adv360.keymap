@@ -33,6 +33,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        raycast {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <34 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
